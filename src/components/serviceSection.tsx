@@ -31,7 +31,7 @@ export default function ServiceSection() {
           {services.map((sevice) => {
             return (
               <div
-                className=" border bg-backgroundw shadow-sm drop-shadow-2xl transition duration-300  ease-in-out rounded-sm p-10 hover:cursor-pointer  hover:-translate-y-6 hover:scale-100"
+                className=" border bg-backgroundw shadow-sm drop-shadow-1xl transition duration-300  ease-in-out rounded-sm p-10 hover:cursor-pointer  hover:-translate-y-6 hover:scale-100"
                 key={sevice.id}
               >
                 <Image src={sevice.url} width={25} height={25} alt="" />

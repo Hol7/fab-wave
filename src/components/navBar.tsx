@@ -19,9 +19,9 @@ export default function NavBar() {
       </div>
 
       <div className='flex gap-10 justify-center items-center font-bold uppercase'>
-        <h3 className='pt-1 hover:cursor-pointer'>About</h3>
-        <h3 className='pt-1 hover:cursor-pointer'>Careers</h3>
-        <h3 className='pt-1 hover:cursor-pointer'>Blog</h3>
+        <h3 className='pt-1 hover:cursor-pointer '>About</h3>
+        <h3 className='pt-1 hover:cursor-pointer '>Careers</h3>
+        <h3 className='pt-1 hover:cursor-pointer '>Blog</h3>
       </div>
     </div>
   );
